@@ -42,7 +42,7 @@ function Drawer({ drawer, action }) {
                                             <span className="menu-expand">
                                                 <i className="fa fa-angle-down"></i>
                                             </span>
-                                            <a href="#">Home</a>
+                                            <a href="#">Inicio</a>
                                             <ul
                                                 className="sub-menu"
                                                 style={{
@@ -50,7 +50,7 @@ function Drawer({ drawer, action }) {
                                                 }}
                                             >
                                                 <li>
-                                                    <Link to="/">Home 1</Link>
+                                                    <Link to="/">Inicio</Link>
                                                 </li>
 
                                             </ul>
@@ -60,7 +60,7 @@ function Drawer({ drawer, action }) {
                                             id="service"
                                             className="menu-item-has-children active"
                                         >
-                                            <Link to="/service">Service</Link>
+                                            <Link to="/service">Diferenciais</Link>
                                         </li>
                                         <li
                                             onClick={(e) => handler(e, 'pages')}
@@ -70,7 +70,7 @@ function Drawer({ drawer, action }) {
                                             <span className="menu-expand">
                                                 <i className="fa fa-angle-down"></i>
                                             </span>
-                                            <a href="#">Pages</a>
+                                            <a href="#">Sobre</a>
                                             <ul
                                                 className="sub-menu"
                                                 style={{
@@ -78,31 +78,6 @@ function Drawer({ drawer, action }) {
                                                 }}
                                             >
                                             </ul>
-                                        </li>
-                                        <li
-                                            onClick={(e) => handler(e, 'news')}
-                                            id="news"
-                                            className="menu-item-has-children active"
-                                        >
-                                            <span className="menu-expand">
-                                                <i className="fa fa-angle-down"></i>
-                                            </span>
-                                            <a href="#">News</a>
-                                            <ul
-                                                className="sub-menu"
-                                                style={{
-                                                    height: item === 'news' ? itemSize : '0px',
-                                                }}
-                                            >
-
-                                            </ul>
-                                        </li>
-                                        <li
-                                            onClick={(e) => handler(e, 'contact')}
-                                            id="contact"
-                                            className="menu-item-has-children active"
-                                        >
-                                            <Link to="/contact">Contact</Link>
                                         </li>
                                     </ul>
                                 </div>

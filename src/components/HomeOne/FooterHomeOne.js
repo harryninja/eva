@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
 
 function FooterHomeOne({ className }) {
@@ -16,10 +15,10 @@ function FooterHomeOne({ className }) {
                                     </a>
                                 </div>
                                 <p>
-                                    Appie WordPress is theme is the last theme you will ever have.
+                                    Estratégia Visual Ágil
                                 </p>
                                 <a href="#">
-                                    Read More <i className="fal fa-arrow-right" />
+                                    Leia sobre<i className="fal fa-arrow-right" />
                                 </a>
                                 <div className="social mt-30">
                                     <ul>
@@ -47,50 +46,7 @@ function FooterHomeOne({ className }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-6">
-                            <div className="footer-navigation">
-                                <h4 className="title">Company</h4>
-                                <ul>
-                                    <li>
-                                        <Link to="/about-us">About Us</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Service">Service</Link>
-                                    </li>
-                                    <li>
-                                        <a href="#">Case Studies</a>
-                                    </li>
-                                    <li>
-                                        <Link to="/news">Blog</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/contact">Contact</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6">
-                            <div className="footer-navigation">
-                                <h4 className="title">Support</h4>
-                                <ul>
-                                    <li>
-                                        <Link to="/about-us">Community</Link>
-                                    </li>
-                                    <li>
-                                        <a href="#">Resources</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Faqs</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Privacy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Careers</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-widget-info">
                                 <h4 className="title">Contato</h4>
@@ -115,22 +71,9 @@ Recife 51021-020, BR
                         <div className="col-lg-12">
                             <div className="footer-copyright d-flex align-items-center justify-content-between pt-35">
                                 <div className="apps-download-btn">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-apple" /> Download for iOS
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a className="item-2" href="#">
-                                                <i className="fab fa-google-play" /> Download for
-                                                Android
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                                 <div className="copyright-text">
-                                    <p>Copyright © 2021 Appie. All rights reserved.</p>
+                                    <p>Copyright © 2025 EVA. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>
